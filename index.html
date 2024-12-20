@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCream</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 50%;
+          padding: 12px;
+          border: 1px solid #6d4a4a;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: rgb(92, 70, 70);
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #47547d;
+          padding: 20px;
+        }
+        </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">eCream</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <h2>Real ice cream for real ice cream lovers</h2>
+            <p>Sweet ice cream for pleasure seekers.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Buy Online</a>
+                <a href="#" class="btn">Find in Store</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section class="product">
+        <div class="product-details">
+            <img src="https://images.pexels.com/photos/1294943/pexels-photo-1294943.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ice Cream" class="product-img">
+            <img src="https://images.pexels.com/photos/1352281/pexels-photo-1352281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="ice-cream" class="product-img">
+            <div>
+                <h3>Stress out? Try eating our ice cream.</h3>
+                <p>
+                    The nearly -200°C (-328°F) liquid freezes the ingredients—sweet cream, flavoring, and handpicked mix-ins—almost instantaneously, creating tiny ice crystals and a smooth texture.
+                </p>
+                <p class="price">Rs120</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            
+        </div>
+        
+    </section>
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="country">Country</label><br>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject"><br>Subject</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>Address: kiet, ghaziabad</p>
+            <p>Phone: +919994659878</p>
+            <p>Email: ice-cream@gmail.com</p>
+            <p>Developed by <a href="#">vikash jadaun</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="icon">Instagram</i></a>
+            <a href="#"><i class="icon">Twitter</i></a>
+            <a href="#"><i class="icon">Facebook</i></a>
+        </div>
+    </footer>
+</body>
+</html>
